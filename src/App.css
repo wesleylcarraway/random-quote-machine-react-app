@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  transition: all ease 2s;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 590px;
+}
+
+#quote-box {
+  background-color: #fff;
+  width: 550px;
+  border-radius: 3px;
+}
+
+#text {
+  font-size: 27px;
+  margin-top: 35px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 0;
+  text-align: center;
+  transition: all ease 2s;
+  color: #fff;
+}
+
+#author {
+  font-weight: lighter;
+  display: flex;
+  justify-content: right;
+  padding-right: 50px;
+  font-size: 16px;
+  transition: all ease 2s;
+  color: #fff;
+}
+
+#bottom {
+  display: flex;
+}
+
+#tweet-quote,
+#tumblr-quote {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease 2s;
+}
+
+#tweet-quote:hover,
+#tumblr-quote:hover,
+#new-quote:hover {
+  opacity: 0.5;
+}
+
+#tweet-quote {
+  margin: 0px 6px 35px 45px;
+}
+
+img {
+  width: 18px;
+  height: 18px;
+  filter: invert(1);
+}
+
+#new-quote {
+  display: inline-block;
+  width: 97px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 273px;
+  margin-top: 0px;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 2s;
+}
+
+#footer {
+  text-align: center;
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 15px;
+  color: #fff;
+  font-size: 13px;
+}
